@@ -11,11 +11,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: " Músicas calmas e relaxantes.",
-                afirmacao: " Você prefere músicas calmas, como lo-fi e jazz, geralmente busca tranquilidade e concentração.",
+                afirmacao: [
+                " Você prefere músicas calmas, como lo-fi e jazz, geralmente busca tranquilidade e concentração.",
+                "Prefiro músicas calmas, como lo-fi e jazz, que ajudam a criar um ambiente tranquilo e focado.",
+                "Busco tranquilidade e concentração com sons suaves que promovem um clima de calma e produtividade."
+                ]
             },
             {
                 texto: " Uma música mais animada com batidas eletrizantes",
-                afirmacao: " Você prefere músicas com batidas eletrizantes busca energia e excitação, geralmente em festas ou para se motivar.",
+                afirmacao: [ 
+                "Gosto de músicas mais animadas com batidas eletrizantes, que trazem energia e deixam qualquer momento mais vibrante.",
+                "Sons intensos e cheios de ritmo me motivam, elevam o astral e criam uma atmosfera cheia de movimento.",
+                " Você prefere músicas com batidas eletrizantes busca energia e excitação, geralmente em festas ou para se motivar."
+                ]
             }
         ]
     },
@@ -24,11 +32,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: " Na parte da manhã e à tarde",
-                afirmacao: " Você ouve música de manhã e à tarde busca melhorar o humor e manter a energia e o foco ao longo do dia.",
+                afirmacao: [
+                "Quem prefere ouvir músicas pela manhã costuma buscar motivação e energia para começar o dia com mais disposição.",
+                " Você ouve música de manhã e à tarde busca melhorar o humor e manter a energia e o foco ao longo do dia.",
+                "Quem escuta músicas à tarde geralmente procura manter o ritmo ou aliviar o estresse acumulado, equilibrando foco e relaxamento."
+                ]
             },
             {
                 texto: " Na parte da noite ou madrugada ",
-                afirmacao: " Você ouve música a noite e/ou na madrugada, busca relaxar, descontrair e preparar a mente para o descanso. ",
+                afirmacao: [
+                "Quem ouve música à noite ou de madrugada costuma buscar tranquilidade e introspecção.",
+                " Você ouve música a noite e/ou na madrugada, busca relaxar, descontrair e preparar a mente para o descanso. ",
+                "Esse horário favorece a criatividade e um clima mais relaxante."
+                ]
             }
         ]
     },
@@ -37,11 +53,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: " Rock, eletrônica ou funk ",
-                afirmacao: " Esses estilos atraem pessoas que curtem ambientes dinâmicos e cheios de ritmo, buscando expressão e diversão. ",
+                afirmacao: [
+                "Quem prefere rock, eletrônica ou funk geralmente busca músicas fortes e cheias de energia.",
+                "Esses estilos atraem pessoas que curtem ambientes dinâmicos e cheios de ritmo, buscando expressão e diversão. ",
+                "Esses estilos mostram uma personalidade vibrante e dinâmica."
+                ]
             },
             {
                 texto: " MPB, samba, lofi ou sertanejo",
-                afirmacao: " Esses estilos atraem pessoas que apreciam uma conexão mais íntima e tranquila com a música, seja para refletir, relaxar ou celebrar momentos cotidianos. ",
+                afirmacao: [
+                "Esses estilos atraem pessoas que apreciam uma conexão mais íntima e tranquila com a música, seja para refletir, relaxar ou celebrar momentos cotidianos.",
+                "Quem gosta de MPB, samba, lo-fi ou sertanejo busca músicas leves e acolhedoras.",
+                "Esses estilos mostram uma personalidade tranquila e sensível."
+                ]
             }
         ]
     },
@@ -50,11 +74,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: " Nacionais ",
-                afirmacao: " Você prefere músicas nacionais valoriza a cultura e as tradições brasileiras, conectando-se com a identidade do país através de estilos como MPB, samba e sertanejo. ",
+                afirmacao: [
+                "Você prefere músicas nacionais valoriza a cultura e as tradições brasileiras, conectando-se com a identidade do país através de estilos como MPB, samba e sertanejo.",
+                "Quem prefere músicas nacionais geralmente valoriza a cultura e as raízes do próprio país.",
+                "Esse gosto mostra conexão com a língua, os ritmos e as histórias locais."
+                ]
             },
             {
                 texto: " Internacionais ",
-                afirmacao: " Você prefere músicas internacionais busca uma conexão com estilos e influências globais, explorando uma diversidade de ritmos e culturas. ",
+                afirmacao: [
+                "Quem prefere músicas internacionais costuma buscar diversidade de estilos e sons de outros países.",
+                "Esse gosto demonstra curiosidade cultural e interesse por experiências musicais globais.",
+                "Você prefere músicas internacionais busca uma conexão com estilos e influências globais, explorando uma diversidade de ritmos e culturas."
+                ]
             }
         ]
     },
